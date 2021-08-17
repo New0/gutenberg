@@ -859,7 +859,7 @@ export class RichText extends Component {
 			return parseFloat( this.props.blockFontSize );
 		}
 
-		if ( this.props.style.fontSize ) {
+		if ( this.props.style?.fontSize ) {
 			return parseFloat( this.props.style.fontSize );
 		}
 
